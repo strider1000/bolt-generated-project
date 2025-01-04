@@ -3,9 +3,9 @@ import React from 'react';
 
     function Industries() {
       return (
-        <section className="industries">
+        <section id="industries" className="industries">
           <div className="container">
-            <h2>Industries We Serve</h2>
+            <h2 className="text-gradient">Industries We Serve</h2>
             <ul>
               <li>Financial Services</li>
               <li>Healthcare & Life Sciences</li>

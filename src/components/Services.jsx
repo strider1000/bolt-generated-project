@@ -3,11 +3,11 @@ import React from 'react';
 
     function Services() {
       return (
-        <section className="services">
+        <section id="services" className="services">
           <div className="container">
-            <h2>Our Services</h2>
+            <h2 className="text-gradient">Our Services</h2>
             <div>
-              <h3>AI Process Automation</h3>
+              <h3 className="text-gradient">AI Process Automation</h3>
               <p>Transform your workflow with intelligent automation that learns and adapts. We specialize in:</p>
               <ul>
                 <li>Document processing and data extraction</li>
@@ -17,7 +17,7 @@ import React from 'react';
               </ul>
             </div>
             <div>
-              <h3>Custom AI Solutions</h3>
+              <h3 className="text-gradient">Custom AI Solutions</h3>
               <p>Tailored artificial intelligence solutions designed for your specific business needs:</p>
               <ul>
                 <li>Predictive analytics systems</li>
@@ -27,10 +27,10 @@ import React from 'react';
               </ul>
             </div>
             <div>
-              <h3>AI Integration Services</h3>
+              <h3 className="text-gradient">AI Integration Services</h3>
               <p>Seamless integration of AI technologies into your existing infrastructure:</p>
               <ul>
-                <li>Legacy system modernization</li>
+                 <li>Legacy system modernization</li>
                 <li>API development and integration</li>
                 <li>Cloud migration and optimization</li>
                 <li>Security and compliance implementation</li>

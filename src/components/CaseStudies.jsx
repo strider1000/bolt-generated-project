@@ -3,7 +3,7 @@ import React from 'react';
 
     function CaseStudies() {
       return (
-        <section className="case-studies">
+        <section id="case-studies" className="case-studies">
           <div className="container">
             <h2>Case Studies</h2>
             <div>
