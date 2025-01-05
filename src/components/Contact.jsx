@@ -1,7 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
     import '../index.css';
 
     function Contact() {
+      const [showModal, setShowModal] = useState(false);
+
+      const handleOpenModal = () => {
+        setShowModal(true);
+      };
+
+      const handleCloseModal = () => {
+        setShowModal(false);
+      };
+
       return (
         <section id="contact" className="contact">
           <div className="container">

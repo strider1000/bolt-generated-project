@@ -1,4 +1,5 @@
 import React from 'react';
+    import { Link } from 'react-router-dom'; // Import Link
     import '../index.css';
 
     function Header() {
@@ -7,12 +8,9 @@ import React from 'react';
           <div className="container">
             <nav>
               <ul>
-                <li><a href="#hero">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#why-choose-us">Why Choose Us</a></li>
-                <li><a href="#our-process">Our Process</a></li>
-                 <li><a href="#industries">Industries</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/contact">Contact</Link></li>
+                <li><Link to="/ai-chatbots-agents">AI Chatbots & Agents</Link></li>
               </ul>
             </nav>
           </div>

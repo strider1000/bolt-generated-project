@@ -1,7 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
     import '../index.css';
 
     function Hero() {
+      const [showModal, setShowModal] = useState(false);
+
+      const handleOpenModal = () => {
+        setShowModal(true);
+      };
+
+      const handleCloseModal = () => {
+        setShowModal(false);
+      };
+
       return (
         <section id="hero" className="hero-banner">
           <div className="container">
@@ -14,7 +24,30 @@ import React from 'react';
             <p className="hero-subtitle">
               Welcome to AI Automatrix, where we bridge the gap between cutting-edge artificial intelligence and real-world business challenges. Our mission is to empower organizations through custom AI automation solutions that drive efficiency, innovation, and growth.
             </p>
-            <a href="#contact" className="hero-cta-button">Get Started</a>
+            <button className="hero-cta-button" onClick={handleOpenModal}>Get Started</button>
+            {showModal && (
+              <div className="modal">
+                <div className="modal-content">
+                  <span className="close" onClick={handleCloseModal}>&times;</span>
+                  <h3>Contact Us</h3>
+                  <form>
+                    <div className="form-group">
+                      <label htmlFor="name">Name:</label>
+                      <input type="text" id="name" name="name" required />
+                    </div>
+                    <div className="form-group">
+                      <label htmlFor="email">Email:</label>
+                      <input type="email" id="email" name="email" required />
+                    </div>
+                    <div className="form-group">
+                      <label htmlFor="message">Message:</label>
+                      <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" className="hero-cta-button">Submit</button>
+                  </form>
+                </div>
+              </div>
+            )}
           </div>
         </section>
       );
