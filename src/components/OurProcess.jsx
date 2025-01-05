@@ -5,7 +5,10 @@ import React from 'react';
       return (
         <section id="our-process" className="our-process">
           <div className="container">
-            <h2 className="text-gradient">Our Process</h2>
+            <h2>
+              <span className="text-gradient">Our</span>
+              <span> Process</span>
+            </h2>
             <div>
               <h3 className="text-gradient">Discovery</h3>
               <p>We begin by thoroughly understanding your business processes, challenges, and objectives. Our team analyzes your current workflows to identify the best opportunities for AI automation.</p>

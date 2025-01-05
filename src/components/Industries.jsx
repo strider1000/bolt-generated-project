@@ -5,15 +5,21 @@ import React from 'react';
       return (
         <section id="industries" className="industries">
           <div className="container">
-            <h2 className="text-gradient">Industries We Serve</h2>
-            <ul>
-              <li>Financial Services</li>
-              <li>Healthcare & Life Sciences</li>
-              <li>Manufacturing & Industrial</li>
-              <li>Retail & E-commerce</li>
-              <li>Logistics & Supply Chain</li>
-              <li>Professional Services</li>
-            </ul>
+            <h2>
+              <span className="text-gradient">Industries</span>
+              <span> We Serve</span>
+            </h2>
+            <div>
+              <p>We deliver transformative AI solutions across diverse sectors:</p>
+              <ul className="feature-list">
+                <li>Financial Services</li>
+                <li>Healthcare & Life Sciences</li>
+                <li>Manufacturing & Industrial</li>
+                <li>Retail & E-commerce</li>
+                <li>Logistics & Supply Chain</li>
+                <li>Professional Services</li>
+              </ul>
+            </div>
           </div>
         </section>
       );

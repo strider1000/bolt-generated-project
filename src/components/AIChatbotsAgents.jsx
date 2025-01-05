@@ -1,97 +1,112 @@
 import React from 'react';
-    import '../index.css';
+import '../index.css';
 
-    function AIChatbotsAgents() {
-      return (
-        <section className="ai-chatbots-agents">
-          <div className="container">
-            <h2 className="text-gradient">AI Chatbots & Agents</h2>
+function AIChatbotsAgents() {
+  return (
+    <div>
+      <section className="hero-banner">
+        <div className="container">
+          <h1>
+            <span className="text-gradient">AI Chatbots</span>
+            <span> & Agents</span>
+          </h1>
+          <p className="hero-subtitle">
+            Transform your business with intelligent AI chatbots that understand, learn, and deliver exceptional customer experiences.
+          </p>
+        </div>
+      </section>
+
+      <section className="services">
+        <div className="container">
+          <h2>
+            <span className="text-gradient">Key</span>
+            <span> Features</span>
+          </h2>
+          <div className="services-grid">
+            <div className="service-box">
+              <h3 className="text-gradient">RAG Technology</h3>
+              <p>Leverage Retrieval Augmented Generation to provide accurate, context-aware responses based on your specific business data and documents.</p>
+            </div>
             
-            <h3>Transform Your Business with AI Chatbot Solutions</h3>
-            <p>Our AI Chatbot solution uses RAG technology and the latest LLMs to provide instant, personalized support, saving time and increasing efficiency.</p>
-            <hr />
-
-            <h3 className="text-gradient">Revolutionizing Businesses with RAG</h3>
-            <p>At <strong>AI Automatrix</strong>, we use <strong>Retrieval Augmented Generation (RAG)</strong> technology, enabling companies to:</p>
-            <ul>
-              <li>Upload documents to a secure knowledge base.</li>
-              <li>Retrieve accurate answers to complex questions.</li>
-              <li>Deliver responses grounded in your specific data.</li>
-            </ul>
-
-            <h4><strong>RAG Use Cases</strong></h4>
-            <ul>
-              <li><strong>Customer Support</strong>: Handle FAQs and complex queries.</li>
-              <li><strong>Internal Knowledge Management</strong>: Access policy documents and manuals.</li>
-              <li><strong>Education and Training</strong>: Query academic and training resources.</li>
-              <li><strong>Compliance and Legal</strong>: Access critical compliance documentation.</li>
-              <li><strong>Sales Enablement</strong>: Access product details and pricing.</li>
-            </ul>
-
-            <h4><strong>Industries That Benefit</strong></h4>
-            <ul>
-              <li><strong>Healthcare</strong>: Streamline patient inquiries and access guidelines.</li>
-              <li><strong>Legal</strong>: Provide quick answers to legal queries.</li>
-              <li><strong>Finance</strong>: Retrieve financial reports and market data.</li>
-              <li><strong>E-commerce</strong>: Offer detailed product information.</li>
-              <li><strong>Education</strong>: Facilitate access to course materials.</li>
-              <li><strong>Technology</strong>: Support users with technical documentation.</li>
-              <li><strong>Government</strong>: Improve citizen engagement with public records.</li>
-            </ul>
-            <hr />
-
-            <h3 className="text-gradient">Key Features</h3>
-            <ul>
-              <li><strong>Easy Integration:</strong> Quick setup.</li>
-              <li><strong>Natural Language Processing (NLP):</strong> Authentic interactions.</li>
-              <li><strong>Latest LLMs:</strong> Tailored to your needs.</li>
-              <li><strong>Scalability:</strong> Grows with your needs.</li>
-              <li><strong>Custom Templates:</strong> Industry-specific templates.</li>
-              <li><strong>Secure and Reliable:</strong> Robust security protocols.</li>
-            </ul>
-            <hr />
-
-            <h3 className="text-gradient">Why Choose Our AI ChatBot?</h3>
+            <div className="service-box">
+              <h3 className="text-gradient">Seamless Integration</h3>
+              <p>Easy integration with your existing systems, including websites, messaging platforms, and customer service tools.</p>
+            </div>
             
-            <h4><strong>1. 24/7 Customer Support</strong></h4>
-            <p>Our AI ChatBot ensures immediate responses by referencing your knowledge base.</p>
-
-            <h4><strong>2. Advanced Lead Generation</strong></h4>
-            <p>Capture and nurture leads with natural, data-driven conversations.</p>
-
-            <h4><strong>3. Tailored to Your Brand</strong></h4>
-            <p>Personalize the chatbot to reflect your brand’s identity.</p>
-
-            <h4><strong>4. Multi-Platform Integration</strong></h4>
-            <p>Our ChatBot fits wherever your customers are.</p>
-
-            <h4><strong>5. Data-Driven Insights</strong></h4>
-            <p>Understand user behavior and refine your strategies.</p>
-            <hr />
-
-            <h3 className="text-gradient">Frequently Asked Questions</h3>
-
-            <h4><strong>How does the AI ChatBot integrate?</strong></h4>
-            <p>Simple API-based integration with various platforms.</p>
-
-            <h4><strong>Can I train the ChatBot?</strong></h4>
-            <p>Full customization of responses and knowledge bases.</p>
-
-            <h4><strong>Is it available in multiple languages?</strong></h4>
-            <p>Yes, our solution supports multiple languages.</p>
-
-            <h4><strong>What’s included in the free trial?</strong></h4>
-            <p>Full access to core features for 14 days.</p>
-            <hr />
-
-            <h3>Take Your Business to the Next Level</h3>
-            <p>Empower your business with our RAG-powered AI ChatBot.</p>
-
-            <h4><strong>Get Started Today</strong></h4>
-            <p><strong>[Start Free Trial]</strong>  |  <strong>[Request a Demo]</strong></p>
+            <div className="service-box">
+              <h3 className="text-gradient">Secure & Compliant</h3>
+              <p>Enterprise-grade security with data encryption, access controls, and compliance with industry standards.</p>
+            </div>
+            
+            <div className="service-box">
+              <h3 className="text-gradient">Analytics & Insights</h3>
+              <p>Comprehensive analytics dashboard to track performance, user interactions, and continuous improvement opportunities.</p>
+            </div>
           </div>
-        </section>
-      );
-    }
+        </div>
+      </section>
 
-    export default AIChatbotsAgents;
+      <section className="industries">
+        <div className="container">
+          <h2>
+            <span>Industry </span>
+            <span className="text-gradient">Solutions</span>
+          </h2>
+          <div className="services-grid">
+            <div className="service-box">
+              <h3 className="text-gradient">Healthcare & Legal</h3>
+              <p>Streamline patient inquiries, access medical guidelines, and provide quick answers to legal queries while maintaining compliance.</p>
+            </div>
+            
+            <div className="service-box">
+              <h3 className="text-gradient">Finance & E-commerce</h3>
+              <p>Access financial reports, market data, and provide detailed product information to customers instantly.</p>
+            </div>
+            
+            <div className="service-box">
+              <h3 className="text-gradient">Education & Technology</h3>
+              <p>Facilitate access to course materials and support users with technical documentation and troubleshooting.</p>
+            </div>
+            
+            <div className="service-box">
+              <h3 className="text-gradient">Government & Public Sector</h3>
+              <p>Improve citizen engagement with easy access to public records and automated service delivery.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="why-choose-us">
+        <div className="container">
+          <h2>
+            <span>Use </span>
+            <span className="text-gradient">Cases</span>
+          </h2>
+          <div className="services-grid">
+            <div className="service-box">
+              <h3 className="text-gradient">Customer Support</h3>
+              <p>Handle FAQs and complex queries with personalized responses, available 24/7 to improve customer satisfaction.</p>
+            </div>
+            
+            <div className="service-box">
+              <h3 className="text-gradient">Knowledge Management</h3>
+              <p>Efficiently access and query internal documents, policies, and manuals for quick information retrieval.</p>
+            </div>
+            
+            <div className="service-box">
+              <h3 className="text-gradient">Sales Enablement</h3>
+              <p>Empower sales teams with instant access to product details, pricing, and competitive information.</p>
+            </div>
+            
+            <div className="service-box">
+              <h3 className="text-gradient">Training & Education</h3>
+              <p>Provide interactive learning experiences and instant access to training resources and documentation.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}
+
+export default AIChatbotsAgents;

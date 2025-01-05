@@ -15,7 +15,7 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<><Hero /><Services /><WhyChooseUs /><OurProcess /><Industries /><Contact /></>} />
+        <Route path="/" element={<><Hero /><Services /><OurProcess /><WhyChooseUs /><Industries /><Contact /></>} />
         <Route path="/ai-chatbots-agents" element={<AIChatbotsAgents />} />
       </Routes>
       <Footer />

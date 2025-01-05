@@ -1,0 +1,21 @@
+Images used in this project are from Unsplash.com (Free to use under the Unsplash License)
+
+1. ai-background.jpg
+Source: https://unsplash.com/photos/blue-and-purple-abstract-painting-f77Bh3inUpE
+Credit: Shubham Dhage
+
+2. ai-circuit.jpg
+Source: https://unsplash.com/photos/blue-and-white-light-illustration-4Mw7nkQDByk
+Credit: Shubham Dhage
+
+3. ai-robotics.jpg
+Source: https://unsplash.com/photos/white-and-blue-robot-toy-gYrYa37fAKI
+Credit: Andy Kelly
+
+4. ai-network.jpg
+Source: https://unsplash.com/photos/abstract-purple-and-blue-light-trails-8bghKxNU1j0
+Credit: Shubham Dhage
+
+5. ai-data.jpg
+Source: https://unsplash.com/photos/person-holding-glass-prism-near-laptop-computer-vrbZVyX2k4I
+Credit: ThisisEngineering RAEng
