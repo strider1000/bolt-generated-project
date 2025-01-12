@@ -721,3 +721,160 @@ body {
             grid-template-columns: 1fr;
         }
     }
+
+    /* AI Chatbots page specific hero styling */
+    .ai-chatbots-agents .hero-banner {
+        padding: 2rem 0;  
+        min-height: auto; 
+    }
+
+    .ai-chatbots-agents .hero-banner .container {
+        padding: 1rem 20px;
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .ai-chatbots-agents .hero-subtitle {
+        margin: 3rem 0;
+    }
+
+    /* Content Automation page specific hero styling */
+    .content-automation .hero-banner {
+        padding: 2rem 0;  
+        min-height: auto; 
+    }
+
+    .content-automation .hero-banner .container {
+        padding: 1rem 20px;
+    }
+
+    .content-automation .hero-subtitle {
+        margin: 3rem 0;
+    }
+
+    /* AI Web Development page specific hero styling */
+    .ai-web-development .hero-banner {
+        padding: 2rem 0;  
+        min-height: auto; 
+    }
+
+    .ai-web-development .hero-banner .container {
+        padding: 1rem 20px;
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .ai-web-development .hero-subtitle {
+        margin: 3rem 0;
+    }
+
+    /* AI Web Development page specific grid styling */
+    .ai-web-development .services-grid {
+        grid-template-columns: 1fr;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .ai-web-development .service-box {
+        padding: 2rem;
+    }
+
+    .ai-web-development .services .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .ai-web-development .features .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    @media (max-width: 768px) {
+        .ai-web-development .services-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .ai-web-development .feature-cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .ai-web-development .feature-card {
+        padding: 1.5rem;
+        min-height: 200px;
+    }
+
+    @media (max-width: 768px) {
+        .ai-web-development .feature-cards {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .ai-chatbots-agents .examples .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .ai-chatbots-agents .examples .service-box {
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 15px;
+        padding: 2.5rem;
+        border: 1px solid rgba(135, 85, 214, 0.2);
+        backdrop-filter: blur(10px);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .ai-chatbots-agents .chatbot-types-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        max-width: 1200px;
+        margin: 2rem auto;
+    }
+
+    .ai-chatbots-agents .chatbot-type {
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 15px;
+        padding: 2rem;
+        transition: transform 0.3s ease;
+        border: 1px solid rgba(135, 85, 214, 0.2);
+        backdrop-filter: blur(10px);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .ai-chatbots-agents .chatbot-type:hover {
+        transform: translateY(-5px);
+        border-color: rgba(255, 43, 125, 0.4);
+        box-shadow: 0 6px 12px rgba(135, 85, 214, 0.2);
+    }
+
+    .ai-chatbots-agents .chatbot-type h3 {
+        margin-bottom: 1rem;
+        font-size: 1.3rem;
+    }
+
+    .ai-chatbots-agents .chatbot-type p {
+        color: #e0e0e0;
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    @media (max-width: 1024px) {
+        .ai-chatbots-agents .chatbot-types-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media (max-width: 768px) {
+        .ai-chatbots-agents .chatbot-types-grid {
+            grid-template-columns: 1fr;
+        }
+    }

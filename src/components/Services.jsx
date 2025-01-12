@@ -7,7 +7,7 @@ import React from 'react';
           <div className="container">
             <h2>
               <span>Our </span>
-              <span className="text-gradient">Services</span>
+              <span className="text-gradient">Automation Services</span>
             </h2>
             <div className="services-grid">
               <div className="service-box">

@@ -8,7 +8,9 @@ import OurProcess from './components/OurProcess';
 import Industries from './components/Industries';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import AIChatbotsAgents from './components/AIChatbotsAgents'; // Import the new component
+import AIChatbotsAgents from './components/AIChatbotsAgents';
+import ContentAutomation from './components/ContentAutomation';
+import AIWebDevelopment from './components/AIWebDevelopment';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <Routes>
         <Route path="/" element={<><Hero /><Services /><OurProcess /><WhyChooseUs /><Industries /><Contact /></>} />
         <Route path="/ai-chatbots-agents" element={<AIChatbotsAgents />} />
+        <Route path="/content-automation" element={<ContentAutomation />} />
+        <Route path="/ai-web-development" element={<AIWebDevelopment />} />
       </Routes>
       <Footer />
     </Router>
