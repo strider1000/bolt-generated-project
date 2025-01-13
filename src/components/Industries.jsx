@@ -12,6 +12,7 @@ import React from 'react';
             <div>
               <p>We deliver transformative AI solutions across diverse sectors:</p>
               <ul className="feature-list">
+                <li>Education Sector</li>
                 <li>Financial Services</li>
                 <li>Healthcare & Life Sciences</li>
                 <li>Manufacturing & Industrial</li>

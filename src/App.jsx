@@ -11,6 +11,7 @@ import Footer from './components/Footer';
 import AIChatbotsAgents from './components/AIChatbotsAgents';
 import ContentAutomation from './components/ContentAutomation';
 import AIWebDevelopment from './components/AIWebDevelopment';
+import ContactUs from './components/ContactUs';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/ai-chatbots-agents" element={<AIChatbotsAgents />} />
         <Route path="/content-automation" element={<ContentAutomation />} />
         <Route path="/ai-web-development" element={<AIWebDevelopment />} />
+        <Route path="/contact-us" element={<ContactUs />} />
       </Routes>
       <Footer />
     </Router>

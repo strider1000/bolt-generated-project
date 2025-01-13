@@ -12,7 +12,7 @@ import React from 'react';
                 <li><Link to="/ai-chatbots-agents">AI Chatbots & Agents</Link></li>
                 <li><Link to="/content-automation">Content Automation</Link></li>
                 <li><Link to="/ai-web-development">AI Web Development</Link></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><Link to="/contact-us">Contact</Link></li>
               </ul>
             </nav>
           </div>

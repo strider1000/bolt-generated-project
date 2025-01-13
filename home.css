@@ -59,4 +59,32 @@
         border-radius: 8px;
         padding: 20px;
     }
+    
+    .contact-us-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+    
+    .contact-us-container h1 {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    
+    .contact-form {
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
+    .loading-spinner {
+        text-align: center;
+        padding: 2rem;
+        font-size: 1.2rem;
+        color: #666;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
 </style>
