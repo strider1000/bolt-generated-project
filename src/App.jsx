@@ -12,6 +12,7 @@ import AIChatbotsAgents from './components/AIChatbotsAgents';
 import ContentAutomation from './components/ContentAutomation';
 import AIWebDevelopment from './components/AIWebDevelopment';
 import ContactUs from './components/ContactUs';
+import RegulatorBot from './components/HESFBot';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/content-automation" element={<ContentAutomation />} />
         <Route path="/ai-web-development" element={<AIWebDevelopment />} />
         <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/hesf-bot" element={<RegulatorBot />} />
       </Routes>
       <Footer />
     </Router>

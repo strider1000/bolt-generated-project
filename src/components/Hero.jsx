@@ -25,7 +25,7 @@ function Hero() {
           <span> Automation</span>
         </h1>
         <p className="hero-subtitle">
-          Welcome to AI Automatrix, where we bridge the gap between cutting-edge artificial intelligence and real-world business challenges.<br/>
+          Welcome to Ai Kit Pro, where we bridge the gap between cutting-edge artificial intelligence and real-world business challenges.
         </p>
         <button className="hero-cta-button" onClick={handleOpenModal}>Get Started</button>
         {showModal && (

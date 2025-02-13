@@ -19,9 +19,7 @@ import React, { useState } from 'react';
             <p>Ready to transform your business with AI automation? Contact us for a free consultation and discover how we can help you achieve your goals.</p>
             <div>
               <h3 className="text-gradient">Contact Information</h3>
-              <p>Phone: (555) 123-4567</p>
-              <p>Email: info@ai-automatrix.com</p>
-              <p>Address: 123 Innovation Drive, Tech City, TC 12345</p>
+              <p>Email: support@aikitpro.com</p>
             </div>
           </div>
         </section>

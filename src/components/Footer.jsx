@@ -5,7 +5,7 @@ import React from 'react';
       return (
         <footer>
           <div className="container">
-            <p>&copy; {new Date().getFullYear()} AI Automatrix. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Ai Kit Pro. All rights reserved.</p>
           </div>
         </footer>
       );

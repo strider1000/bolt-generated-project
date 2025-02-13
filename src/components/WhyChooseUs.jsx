@@ -7,7 +7,7 @@ function WhyChooseUs() {
       <div className="container">
         <h2>
           <span>Why Choose </span>
-          <span className="text-gradient">AI Automatrix</span>
+          <span className="text-gradient">Ai Kit Pro</span>
         </h2>
         
         <div className="stats-grid">
