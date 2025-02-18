@@ -14,7 +14,7 @@ const RegulatorBot = () => {
         showWelcomeScreen: true,
         initialMessages: [
           'Hi there! 👋',
-          'I can help you with any regulatory compliance questions and guidance relating to the HESF 2021 and RTO Standards 2015.'
+          'I can help you with any regulatory compliance questions and guidance relating to the HESF 2021.'
         ],
         i18n: {
           en: {

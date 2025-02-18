@@ -166,7 +166,7 @@ body {
       background-image: url('https://images.unsplash.com/photo-1676299081847-824f1ea8c798?auto=format&fit=crop&w=2000&q=80');
       background-size: cover;
       background-position: center;
-      opacity: 0.15;
+      opacity: 0.08;
       z-index: 0;
     }
 
@@ -491,7 +491,7 @@ body {
 
     /* Hero section specific */
     .hero-banner {
-        background: linear-gradient(135deg, #28083B 0%, #1a0527 100%);
+        background: linear-gradient(135deg, #1a0527 0%, #0d0213 100%);
         min-height: 80vh;
         display: flex;
         align-items: center;
@@ -516,13 +516,13 @@ body {
 
     /* Our Process section specific */
     .our-process {
-        background: linear-gradient(135deg, #28083B 0%, #1a0527 100%);
+        background: linear-gradient(135deg, #1a0527 0%, #0d0213 100%);
         position: relative;
     }
 
     /* Contact section specific */
     .contact {
-        background: linear-gradient(135deg, #1a0527 0%, #28083B 100%);
+        background: linear-gradient(135deg, #1a0527 0%, #0d0213 100%);
         position: relative;
     }
 
@@ -777,7 +777,7 @@ body {
         margin: 3rem 0;
     }
 
-    /* Content Automation page specific hero styling */
+    /* Content Automation page specific styling */
     .content-automation .hero-banner {
         padding: 2rem 0;  
         min-height: auto; 
@@ -789,6 +789,10 @@ body {
 
     .content-automation .hero-subtitle {
         margin: 3rem 0;
+    }
+
+    .content-automation .advanced-features {
+        background: linear-gradient(135deg, #1a0527 0%, #0d0213 100%);
     }
 
     /* AI Web Development page specific hero styling */
@@ -808,11 +812,15 @@ body {
         margin: 3rem 0;
     }
 
-    /* AI Web Development page specific grid styling */
+    /* AI Web Development page specific styling */
     .ai-web-development .services-grid {
         grid-template-columns: 1fr;
         max-width: 800px;
         margin: 0 auto;
+    }
+
+    .ai-web-development .technical-capabilities {
+        background: linear-gradient(135deg, #1a0527 0%, #0d0213 100%);
     }
 
     .ai-web-development .service-box {

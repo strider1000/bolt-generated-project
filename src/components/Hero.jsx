@@ -1,15 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import '../index.css';
 
 function Hero() {
-  const [showModal, setShowModal] = useState(false);
+  const navigate = useNavigate();
 
-  const handleOpenModal = () => {
-    setShowModal(true);
-  };
-
-  const handleCloseModal = () => {
-    setShowModal(false);
+  const handleGetStarted = () => {
+    navigate('/contact-us');
   };
 
   return (
@@ -27,30 +24,7 @@ function Hero() {
         <p className="hero-subtitle">
           Welcome to Ai Kit Pro, where we bridge the gap between cutting-edge artificial intelligence and real-world business challenges.
         </p>
-        <button className="hero-cta-button" onClick={handleOpenModal}>Get Started</button>
-        {showModal && (
-          <div className="modal">
-            <div className="modal-content">
-              <span className="close" onClick={handleCloseModal}>&times;</span>
-              <h3>Contact Us</h3>
-              <form>
-                <div className="form-group">
-                  <label htmlFor="name">Name:</label>
-                  <input type="text" id="name" name="name" required />
-                </div>
-                <div className="form-group">
-                  <label htmlFor="email">Email:</label>
-                  <input type="email" id="email" name="email" required />
-                </div>
-                <div className="form-group">
-                  <label htmlFor="message">Message:</label>
-                  <textarea id="message" name="message" required></textarea>
-                </div>
-                <button type="submit" className="hero-cta-button">Submit</button>
-              </form>
-            </div>
-          </div>
-        )}
+        <button className="hero-cta-button" onClick={handleGetStarted}>Get Started</button>
       </div>
     </section>
   );
