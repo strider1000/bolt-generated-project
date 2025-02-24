@@ -13,6 +13,8 @@ import ContentAutomation from './components/ContentAutomation';
 import AIWebDevelopment from './components/AIWebDevelopment';
 import ContactUs from './components/ContactUs';
 import RegulatorBot from './components/HESFBot';
+import Blog from './components/Blog';
+import Blogs from './components/Blogs';
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
         <Route path="/ai-web-development" element={<AIWebDevelopment />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/hesf-bot" element={<RegulatorBot />} />
+        <Route path="/blogs" element={<Blogs />} />
+        <Route path="/blog/:id" element={<Blog />} />
       </Routes>
       <Footer />
     </Router>

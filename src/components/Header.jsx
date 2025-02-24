@@ -18,6 +18,7 @@ import React from 'react';
                   </ul>
                 </li>
                 <li><Link to="/hesf-bot">Regulator Bot</Link></li>
+                <li><Link to="/blogs">Blog</Link></li>
                 <li><Link to="/contact-us">Contact</Link></li>
               </ul>
             </nav>
